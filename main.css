@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #2f2f2f;
+}
+img {
+  display: block;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form {
+  width: 700px;
+  margin: 50px auto;
+  background-color: #fdec51;
+}
+.top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 50px 50px 0 50px;
+}
+.top-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+.top-btn {  
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color:transparent;
+}
+.x-icon {
+  width: 25px;
+  height: 25px;
+}
+.middle-wrapper {
+  position: relative;
+  left: 70px;
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.avatar {
+  position: absolute;
+  top: -35px;
+  left: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.username-label {
+  font-size: 18px;
+}
+.wrapper-label {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 30px;
+}
+.firstname-input {
+  border: none;
+}
+.lastname-input {
+  border: none;
+}
+.aria {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  border: none;
+  border-bottom: 1px solid #000 ;
+  resize: vertical;
+}
+.down-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+.down-btn {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+}
+.label {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 7px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.firstname-input {
+  margin-bottom: 0;
+  border: none;
+}
+.last-name {
+  width: 50%;
+  margin-bottom: 0;
+}
+.first-name {
+  width: 50%;
+  margin-bottom: 0;
+}
+.lastname-input {
+  border: none;
+}
